@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img" aria-label="Картридж с роликом для полимерной депиляции и гранулы полимера">
+  <title>Депиляция полимером</title>
+  <rect width="800" height="450" fill="#DFF2F0"/>
+  <circle cx="400" cy="235" r="175" fill="#C7E9E5"/>
+
+  <g transform="rotate(-18 380 240)">
+    <rect x="322" y="96" width="116" height="252" rx="42" fill="#FFFFFF" stroke="#26706D" stroke-width="7"/>
+    <rect x="322" y="188" width="116" height="40" fill="#C7E9E5"/>
+    <rect x="334" y="330" width="92" height="52" rx="26" fill="#C9A227"/>
+    <circle cx="380" cy="356" r="12" fill="#E3C77A"/>
+    <rect x="360" y="70" width="40" height="30" rx="10" fill="#26706D"/>
+  </g>
+
+  <path d="M540 322 h180 a90 90 0 0 1 -180 0 z" fill="#FFFFFF" stroke="#26706D" stroke-width="7"/>
+  <circle cx="576" cy="300" r="20" fill="#C9A227"/>
+  <circle cx="624" cy="292" r="24" fill="#E3C77A"/>
+  <circle cx="676" cy="302" r="19" fill="#C9A227"/>
+  <circle cx="600" cy="336" r="17" fill="#E3C77A"/>
+  <circle cx="652" cy="338" r="15" fill="#C9A227"/>
+
+  <circle cx="196" cy="182" r="16" fill="#C9A227" opacity=".75"/>
+  <circle cx="238" cy="240" r="11" fill="#E3C77A" opacity=".9"/>
+  <circle cx="176" cy="266" r="9" fill="#C9A227" opacity=".6"/>
+</svg>

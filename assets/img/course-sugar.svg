@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img" aria-label="Банка сахарной пасты для шугаринга и шарик пасты">
+  <title>Шугаринг</title>
+  <rect width="800" height="450" fill="#DFF2F0"/>
+  <circle cx="400" cy="235" r="175" fill="#C7E9E5"/>
+
+  <g fill="#C9A227" opacity=".7">
+    <rect x="214" y="128" width="18" height="18" rx="4" transform="rotate(45 223 137)"/>
+    <rect x="560" y="112" width="14" height="14" rx="3" transform="rotate(45 567 119)"/>
+    <rect x="180" y="238" width="14" height="14" rx="3" transform="rotate(45 187 245)"/>
+    <rect x="618" y="196" width="18" height="18" rx="4" transform="rotate(45 627 205)"/>
+    <rect x="248" y="372" width="14" height="14" rx="3" transform="rotate(45 255 379)"/>
+  </g>
+
+  <path d="M512 236 q46 -66 116 -44" fill="none" stroke="#C9A227" stroke-width="16" stroke-linecap="round"/>
+  <circle cx="586" cy="304" r="52" fill="#C9A227"/>
+  <circle cx="566" cy="286" r="14" fill="#E3C77A"/>
+
+  <rect x="288" y="186" width="204" height="188" rx="36" fill="#FFFFFF" stroke="#26706D" stroke-width="7"/>
+  <path d="M310 268 q40 -24 80 0 q40 24 80 0 v70 a22 22 0 0 1 -22 22 h-116 a22 22 0 0 1 -22 -22 z" fill="#C9A227"/>
+  <circle cx="352" cy="316" r="10" fill="#E3C77A" opacity=".8"/>
+  <circle cx="424" cy="336" r="8" fill="#E3C77A" opacity=".8"/>
+  <rect x="268" y="150" width="244" height="44" rx="22" fill="#E3C77A" stroke="#26706D" stroke-width="7"/>
+</svg>
