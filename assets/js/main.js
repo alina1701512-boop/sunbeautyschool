@@ -8,9 +8,10 @@
    Когда подключите ЮKassa, Т-Банк или другой сервис — вставьте ссылки сюда.
    Пока строка пустая, кнопка «Оплатить» ведёт на блок контактов. */
 var PAY_LINKS = {
-  depilation:  "",
-  pedicure:    "",
-  cosmetology: ""
+  "course-wax":         "",
+  "course-sugar":       "",
+  "course-polymer":     "",
+  "course-cosmetology": ""
 };
 
 (function () {
