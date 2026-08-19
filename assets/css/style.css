@@ -158,6 +158,14 @@ h3{font-size:clamp(20px,2.2vw,25px)}
   .header-inner{position:relative}
   .section{padding:48px 0}
 }
+@media (max-width:760px){
+  /* прайс: длинные названия процедур не должны распирать таблицу */
+  .price-table{table-layout:fixed;width:100%}
+  .price-table th,.price-table td{padding:12px 14px;word-wrap:break-word}
+  .price-table th:last-child,.price-table td:last-child{width:34%;white-space:normal}
+  .price-table th{font-size:18px}
+  .price-table td{font-size:15px}
+}
 @media (max-width:560px){
   /* три двери остаются в ряд, как на компьютере: вся плитка — одна большая кнопка */
   .door .ph{height:96px}
