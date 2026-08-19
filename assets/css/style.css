@@ -144,8 +144,12 @@ h3{font-size:clamp(20px,2.2vw,25px)}
 
 /* ---------- responsive ---------- */
 @media (max-width:900px){
-  .doors{grid-template-columns:1fr;border-radius:16px}
   .grid-3,.grid-2,.split,.footer-grid{grid-template-columns:1fr}
+  .doors{border-radius:16px}
+  .door .ph{height:130px}
+  .door{padding:0 8px 20px}
+  .door h3{margin:14px 0 2px}
+  .door p{margin-bottom:14px}
   .page-hero img{height:260px}
   .nav{position:absolute;top:100%;left:0;right:0;background:#fff;flex-direction:column;align-items:flex-start;gap:0;padding:0 24px;max-height:0;overflow:hidden;transition:.25s;border-bottom:1px solid var(--line)}
   .nav.open{max-height:340px;padding:8px 24px 18px}
@@ -155,6 +159,15 @@ h3{font-size:clamp(20px,2.2vw,25px)}
   .section{padding:48px 0}
 }
 @media (max-width:560px){
+  /* три двери остаются в ряд, как на компьютере: вся плитка — одна большая кнопка */
+  .door .ph{height:96px}
+  .door{padding:0 6px 18px}
+  .door h3{font-size:17px;margin:12px 0 2px}
+  .door p{font-size:12px;line-height:1.35;margin-bottom:6px}
+  .door .btn{display:none}
+  .door p::after{content:" →";color:var(--gold-text);white-space:nowrap}
+  .tone-3 p::after{color:var(--gold-l)}
+  .hero .lead{font-size:15px}
   .stats{grid-template-columns:1fr;gap:18px}
   .card{padding:22px}
   .card .ph{margin:-22px -22px 18px}

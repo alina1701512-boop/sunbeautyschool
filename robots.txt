@@ -1,7 +1,5 @@
 User-agent: *
 Allow: /
-Disallow: /mockups.html
-Disallow: /mockups-view.html
 
 # ИИ-поисковики: пускаем тех, кто приводит трафик
 User-agent: OAI-SearchBot
