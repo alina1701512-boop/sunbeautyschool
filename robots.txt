@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+Disallow: /mockups.html
+Disallow: /mockups-view.html
+
+# ИИ-поисковики: пускаем тех, кто приводит трафик
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+# Обучающий бот OpenAI — забирает контент без отдачи
+User-agent: GPTBot
+Disallow: /
+
+Sitemap: https://sunbeautyschool.ru/sitemap.xml
